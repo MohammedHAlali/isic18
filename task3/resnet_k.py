@@ -4,8 +4,8 @@ import os
 import numpy as np
 from tensorflow.keras.applications.resnet50 import ResNet50, preprocess_input
 
-from task3 import isic_data
-from task3 import keras_model_utilities as kmu
+import isic_data
+import keras_model_utilities as kmu
 
 _OUTPUT_PATH = Path("/home/helle246/data/isic_models/resnet")
 
